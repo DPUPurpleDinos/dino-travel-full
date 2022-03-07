@@ -20,4 +20,4 @@ The manual covers every step of creating Dino Travel including:
 
 ### Note
 
-[Frontend](https://github.com/DPUPurpleDinos/DinoTravelFrontend) and [backend](https://github.com/DPUPurpleDinos/dino-travel) development was done through two separate repositories. The purpose of this repository is to share the source code and booklet in a single place.
+[Frontend](https://github.com/Daniel-McCarthy/DinoTravelFrontend) and [backend](https://github.com/DPUPurpleDinos/dino-travel) development was done through two separate repositories. The purpose of this repository is to share the source code and booklet in a single place.
