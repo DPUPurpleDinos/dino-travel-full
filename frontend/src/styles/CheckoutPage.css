@@ -1,0 +1,61 @@
+#checkoutForm {
+    width: 700px;
+    padding: 10px;
+}
+#checkoutComponents {
+    width: 1100px;
+    margin: auto;
+}
+
+#bookingReceipt {
+    width: 310px;
+}
+
+#btnCompleteBooking {
+    width: 310px;
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.2s ease-in-out;
+}
+
+#btnCompleteBooking:enabled {
+    background: rgb(59, 77, 145);
+}
+
+#btnCompleteBooking:active {
+    background-color: rgb(59, 77, 145);
+}
+
+#btnCompleteBooking:hover:enabled {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(59, 77, 145);
+    box-shadow: 0 5px 15px rgb(63, 0, 114);
+}
+
+#checkoutFormContainer {
+    display: inline-flex;
+    margin: 5px;
+}
+
+#checkoutReceiptContainer {
+    display: inline-flex;
+    margin: 5px;
+}
+
+#checkoutForm input:required {
+    border-color: #a50000;
+    border-width: 2px;
+}
+
+#checkoutForm input:required + label {
+    color: #a50000;
+}
+
+#checkoutForm input:valid {
+    border-width: 1px;
+    border-color: #d8dee9;
+    background-color: #fcfcfc;
+}
+
+#checkoutForm input:valid + label {
+    color: black;
+}

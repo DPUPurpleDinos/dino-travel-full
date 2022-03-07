@@ -1,0 +1,39 @@
+#tripsContent {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+}
+
+#manageButtons {
+    display: flex;
+}
+
+#manageButtons a {
+    padding-bottom: 20px;
+    margin-right: 60px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#manageButtons a:visited {
+    color: rgb(59, 77, 145);
+}
+
+#manageButtons a:hover {
+    color: rgb(108, 140, 255);
+}
+
+#loginRedirect {
+    margin: auto;
+    text-align: center;
+}
+
+.toggleSelected {
+    color: rgb(33, 33, 33);
+}
+
+.toggleUnselected {
+    color: rgb(59, 77, 145);
+}

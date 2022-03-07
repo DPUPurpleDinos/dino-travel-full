@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+header nav button {
+    margin-right: 15px;
+}
+
+.banner {
+    display: flex;
+}
+
+.logo {
+    width: 220px;
+    height: 200px;
+    margin-left: 20px;
+
+    display: inline-block;
+    margin-right: 10px;
+    content: url("../../assets/dino_travel_logo2.png");
+}
+
+.slogan {
+    display: flex;
+    margin-left: 20px;
+    height: 200px;
+    align-items: center;
+}
+
+nav {
+    display: inline-block;
+}
+
+section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * Image Carousel Styling
+ */
+
+ #bannerContainer {
+    display: flex;
+}
+
+#bannerCarousel {
+    width: 100%;
+    margin-top: 100vh;
+}
+
+/*
+ * Filters Styling
+ */
+
+#filterRow {
+    display: block;
+}
+
+.flightTypeFilters button {
+    width: 112px;
+    height: 60px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.flightTypeFilters {
+    display: inline-block;
+}
+
+.filterDropdowns {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.filterDropdowns select {
+    margin-right: 35px;
+}
+
+#filterRow input {
+    height: 35px;
+    width: 200px;
+}
+
+#filterRow h3 {
+    font-size: 14px;
+}
+
+.travelersInput {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+section h1 {
+    font-size: 36px;
+}
+
+/*
+ * User Input Stylings
+ */
+
+#destinationInputs {
+    display: flex;
+}
+
+#userInputRow {
+    margin-top: 30px;
+    display: flex;
+}
+
+#destinationInputs .verticalSpacer {
+    height: 60px;
+}
+
+#userInputRow .datePicker {
+    width: 180px;
+}
+
+#submitButton, #searchButton {
+    width: 150px;
+    margin-top: 50px;
+}
+
+#submitButton {
+    display: block;
+    margin-bottom: 100px;
+}
+
+#searchButton {
+    margin-bottom: 20px;
+}
+
+#nextFlightButton {
+    margin-top: 30px;
+}
+
+.dateInputContainer {
+    display: inline-block;
+    width: 180px;
+    margin-right: 30px;
+}
+
+#userInputRow input {
+    border-radius: 3px;
+    margin-right: 40px;
+    height: 60px;
+}
+
+#userInputRow .airportSelectorElement {
+    margin-right: 40px;
+}
+
+.airportSelectorElement {
+    margin-top: auto;
+}
+
+.leavingAirportSelectorContainer, .arrivingAirportSelectorContainer {
+    width: 320px;
+    height: 125px;
+    display: flex;
+}
